@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %} Form {% endblock %}
+
+
+{% block content %}
+<h1>Job Application Form</h1>
+                    <h2>Hi Engineer! Please fill out the following information. We look forward to hearing from you!</h2>
+          
+
+<!-- your html goes here -->
+    <form action="/application">
+        First Name:
+            <input type ="text" name ="firstname"><br>
+        Last Name:
+            <input class="bold" type ="text" name ="lastname"><br>
+    
+
+  
+        Salary Requirement:
+    <input type="number" name="salary" min="0" step="1"/><br>
+
+        Choose the job you are applying for:
+            <select name="job">
+                <option value ="Software Engineer">Software Engineer</option>
+                <option value ="QA Engineer">QA Engineer</option>
+                <option value ="Product Manager">Product Manager</option>
+    
+
+        <input class="button" type="submit">
+    </form>
+
+    {% endblock %}

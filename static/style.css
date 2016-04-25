@@ -1,0 +1,63 @@
+body {
+    background-color: lightblue;
+    
+}
+
+
+input, textarea {
+    background-color : #ffffcc;
+    }
+
+h1 {
+    font-family: Optima;
+    color: #0066ff;
+    margin: auto;
+
+}
+
+h2 {
+    font-family: Optima;
+    font-size: 20px;
+    margin:0 auto;
+    color: #3399ff;
+    border: 2px blue dotted;
+    width: fit-content;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    font-family: Optima;
+    color: #0066ff;
+}
+
+h4 {
+   font-family: Optima;
+   color: #0066ff;
+   font-weight: bold; 
+}
+
+.bar {
+    height: 15px;
+    background-color: #3399ff; 
+}
+
+.melon {
+    height: 50px;
+    width: 70px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.button {
+    background-color: #ffffcc;
+    border-radius:4px;
+    color: #0066ff;
+    font-family: Optima;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+}
